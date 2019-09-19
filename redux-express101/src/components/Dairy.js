@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {connect} from 'react-redux';
 import updateDairy from '../actions/dairyInvUpdate';
-import { bindActionCreators } from '../../../../../../../Library/Caches/typescript/3.5/node_modules/redux';
+import { bindActionCreators } from 'redux';
 import AddItem from './AddItem';
 import getInv from '../actions/getInv.js'
 

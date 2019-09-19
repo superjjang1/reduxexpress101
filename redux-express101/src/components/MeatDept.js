@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 //react-redux specifically, to connect the thing
 import {connect} from 'react-redux';
 import updateMeat from '../actions/meatInvUpdate'
-import { bindActionCreators } from '../../../../../../../Library/Caches/typescript/3.5/node_modules/redux';
+import { bindActionCreators } from 'redux';
 import AddItem from './AddItem';
 
 

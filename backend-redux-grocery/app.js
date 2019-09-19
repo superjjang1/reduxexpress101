@@ -5,7 +5,6 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-console.log('test');
 var app = express();
 const helmet=require('helmet');
 app.use(helmet());
